@@ -1,0 +1,194 @@
+.col_card_container {
+    display: flex ;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    .card{
+        transition: 0.4s;
+        margin-bottom: 25px};
+    .card:hover{
+        transform: scale(1.1)
+        }}
+
+
+@media (min-width:568px) and (max-width:992px) {
+    .col_card_container{
+        font-size: smaller;
+        padding: 50px 0px ;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3 1fr);
+        grid-template-areas: 
+            "reciclado agro"
+            "deco sogas"
+            "scrap limpieza";
+        column-gap: 5px;
+        row-gap: 20px;
+        align-content: center;
+        justify-content: center;
+        margin: 0px;
+        .un_reciclaje {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: reciclado;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+        .un_agro {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: agro;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};                        
+        .un_deco {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: deco ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+                        
+        .un_soga {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid: sogas ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+                        
+        .un_scrap {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: scrap;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+                        
+        .un_limpieza {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: limpieza ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid}}}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .col_card_container{
+        display: flex;
+        font-size: smaller;
+        align-items: center;
+        justify-items: center;
+        padding: 100px 0px ;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3 1fr);
+        grid-template-areas: 
+            "reciclado agro"
+            "deco sogas"
+            "scrap limpieza";
+        column-gap: 0px;
+        row-gap: 40px;
+        .un_reciclaje {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: reciclado;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+        .un_agro {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: agro;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};                        
+        .un_deco {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: deco ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+                        
+        .un_soga {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid: sogas ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+                        
+        .un_scrap {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: scrap;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+                        
+        .un_limpieza {
+            text-align: center;
+            width: 400px;
+            height: 350px;
+            grid-area: limpieza ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid}}}
+
+@media (min-width:1200px) {
+    .col_card_container{
+        display:grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2 1fr);
+        grid-template-areas: 
+            "reciclado agro deco"
+            "sogas scrap limpieza";
+        column-gap: 10px;
+        row-gap: 80px;
+        .un_reciclaje {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            grid-area: reciclado;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};                
+        .un_agro {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            grid-area: agro;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};
+        .un_deco {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            grid-area: deco ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};                
+        .un_soga {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            grid: sogas ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};                
+        .un_scrap {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            grid-area: scrap;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid};                
+        .un_limpieza {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            grid-area: limpieza ;
+            background-color: rgb(225, 226, 227) ;
+            border: 1px black solid}}} 

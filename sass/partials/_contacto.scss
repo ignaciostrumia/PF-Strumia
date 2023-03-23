@@ -1,0 +1,52 @@
+.ctitulo{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;}
+.help{
+    margin-left: 10px;
+    margin-right: 10px;}
+.scontacto{
+    margin-left: 10px;
+    margin-right: 10px;
+    .forms {
+    font-size: medium;
+    font-weight: 600}}
+
+
+@media (min-width:568px) and (max-width:992px) {
+    .ctitulo{
+        text-align: center;}
+    
+    .forms {
+        font-size: large;
+        font-weight: 600}}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .ctitulo{
+        font-weight: 700px;
+        text-align: center;}
+    
+    .forms {
+        font-size: large;
+        font-weight: 700}}
+
+@media (min-width:1200px) {
+    .ctitulo{ 
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;}
+    .help{
+        margin-left: 500px;
+        margin-right: 25px;}
+    .scontacto{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        .forms {
+            font-size: larger;
+            font-weight: 750};
+            .btncon{margin-left: 60px;
+                font-size: larger;
+                height: 50px;
+                width: 150px;}}}

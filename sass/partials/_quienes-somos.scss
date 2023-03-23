@@ -1,0 +1,44 @@
+.articuloqs{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+    .tituloqs{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 40px};
+    .imagenesqs{
+        height: 200px;
+        width: 300px;}}
+
+@media (min-width:568px) and (max-width:992px) {
+    .articuloqs{
+        .tituloqs{
+            text-decoration: underline 2px dotted;
+            font-size: 60px};
+        .imagenesqs{
+            height: 300px;
+            width: 450px;}}}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .articuloqs{
+        .tituloqs{
+            text-shadow: 2px 2px whitesmoke;
+            font-size: 70px};
+        .parrafoqs{
+            padding-bottom: 40px;
+            font-size: 25px};
+        .imagenesqs{
+            height: 375px;
+            width: 570px;}}}
+
+@media (min-width:1200px) {
+    .articuloqs{
+        .tituloqs{
+            text-shadow: 4px 4px whitesmoke;
+            font-size: 75px};
+        .parrafoqs{
+            padding-bottom: 50px;
+            font-size: 30px};
+        .imagenesqs{
+            height: 375px;
+            width: 570px;}}}
